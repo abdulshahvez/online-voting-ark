@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Chart.js from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="admin-container">
+        <h2>Admin Panel</h2>
+        <div id="voteCounts">
+            <canvas id="voteChart"></canvas> <!-- Canvas for Chart.js -->
+        </div>
+        <button onclick="logout()">Logout</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Choose Your Candidate</h2>
+        <form id="voteForm">
+            <label for="name">Voter's Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Voter's Registered Email ID:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="voterId">Voter's Card No.:</label>
+            <input type="text" id="voterId" name="voterId" required>
+
+            <p>Select Any One of Them:</p>
+            <input type="radio" id="bjp" name="party" value="BJP" required>
+            <label for="bjp">Bharatiya Janata Party (BJP)</label><br>
+
+            <input type="radio" id="inc" name="party" value="INC" required>
+            <label for="inc">Congress (INC)</label><br>
+
+            <input type="radio" id="ysrcp" name="party" value="YSRCP" required>
+            <label for="ysrcp">YSR Congress (YSRCP)</label><br>
+
+            <input type="radio" id="jns" name="party" value="JNS" required>
+            <label for="jns">JanaSena (JNS)</label><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
